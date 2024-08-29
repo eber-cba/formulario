@@ -7,7 +7,8 @@ export default function Navbar() {
       <nav>
         <ul>
           <li>
-            <Link to='/formularios'>Formulario</Link>
+            <Link to='/register'>Register</Link>
+            <Link to='/login'>Login</Link>
           </li>
         </ul>
       </nav>

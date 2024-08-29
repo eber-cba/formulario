@@ -3,6 +3,9 @@ import { Route, Routes } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Formulario from "./components/Formulario";
 import NotFound from "./views/NotFound";
+import Login from "./components/Login";
+import Register from "./components/Register";
+
 function App() {
   return (
     <>
@@ -11,6 +14,8 @@ function App() {
       <Routes>
         <Route path='/formularios' element={<Formulario />} />
         <Route path='*' element={<NotFound />} />
+        <Route path='/login' element={<Login />} />
+        <Route path='/register' element={<Register />} />
       </Routes>
     </>
   );
